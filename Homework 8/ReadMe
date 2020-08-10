@@ -1,0 +1,18 @@
+# Homework 8 -- Euclid's Algorithm
+#
+#  Find the Greatest Common Divisor of two integers.
+
+#  1.  Call the two integers large and small
+#  2.  If small is equal to 0, 
+#         stop: large is the GCD
+#  3.  Divide large by small, call the remainder small. The previous small becomes large
+#  4.  Repeat steps 2 thru 4.
+#
+#  Registers:
+#
+#   $s1 -- small
+#   $s2 -- large
+#  
+#
+#   $a0 -- address of prompt
+#   $v0 -- trap handler code, user input
