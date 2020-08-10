@@ -1,0 +1,6 @@
+Write a subroutine that takes one temperature in Celsius and convert it to Fahrenheit using
+the approximate formula f =
+c·9
+5 + 32.
+The main routine, in a loop, prompts the user for a value of a temperature and prints out the
+result. End the loop when the user enters an integer out of the range of [−50, 50].
