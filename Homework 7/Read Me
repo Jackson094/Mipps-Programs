@@ -1,0 +1,6 @@
+Declare an array of integers, something like:
+. data
+size : . word 8
+array : . word 23 , -12 , 45 , -32 , 52 , -72 , 8 , 13
+Write a program that determines the minimum and the maximum element in the array. Assume
+that the array has at least one element. Leave the results in registers.
